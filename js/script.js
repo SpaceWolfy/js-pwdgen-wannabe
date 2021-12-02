@@ -33,3 +33,7 @@ let favoriteColor = prompt('Inserisci il tuo colore preferito');
 /* console.log(favoriteColor); */
 
 //---------------------------------------------------
+
+//Ora vado a concatenare le tre variabili, racchiudendole in una unica, chiamata userPassword
+let userPassword = firstName + surname + favoriteColor;
+/* console.log(userPassword); */
