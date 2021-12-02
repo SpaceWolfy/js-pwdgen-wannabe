@@ -37,3 +37,13 @@ let favoriteColor = prompt('Inserisci il tuo colore preferito');
 //Ora vado a concatenare le tre variabili, racchiudendole in una unica, chiamata userPassword
 let userPassword = firstName + surname + favoriteColor;
 /* console.log(userPassword); */
+
+//in htmlElement è contenuto l'id #password dell'HTML; il codice sottostante ci permetterà di stampare a schermo la variabile.
+let htmlElement = document.getElementById ('password');
+htmlElement.innerHTML = (`${userPassword}21`);
+
+/* Test metodo di scrittura alternativo - non prevede la creazione di una variabile ulteriore poiché la somma 
+viene effettuata direttamente all'interno di htmlElement.innerHTML */
+
+/* let htmlElement = document.getElementById ('password');
+htmlElement.innerHTML = (`${firstName}` + `${surname}` + `${favoriteColor}` + '21'  ); */
