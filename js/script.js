@@ -17,3 +17,19 @@ esempio: nomecognomecolorepreferito21
 - Creerò dunque una variabile nominata htmlElement, che conterrà l'oggetto HTML con id: #password
 in cui stamperò le informazioni recuperate.
 */
+
+//Creazione dei tre prompt:
+
+// quello che viene scritto nel prompt sottostante è ora in name
+const firstName = prompt('Qual è il tuo nome?');
+/* console.log(firstName); */
+
+// quello che viene scritto nel prompt sottostante è ora in surname
+const surname = prompt('Qual è il tuo cognome?');
+/* console.log(surname); */
+
+// quello che viene scritto nel prompt sottostante è ora in favoriteColor
+let favoriteColor = prompt('Inserisci il tuo colore preferito');
+/* console.log(favoriteColor); */
+
+//---------------------------------------------------
